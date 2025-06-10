@@ -4,12 +4,16 @@
 }
 
 h1{
-    background-color: rgb(138, 53, 194);
-    color: #fff;
-    padding: 1%;
+    background-color: #8a35c2;
+    color: #ffffff;
+    padding: 2%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
+}
+
+.bemvindo{
+    font-size: x-large;
 }
 
 .navbar {
@@ -26,6 +30,7 @@ h1{
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-size: larger;
 }
  
 .navbar a:hover {
@@ -45,37 +50,48 @@ h1{
     margin-right: 10%;
 }
 
+p{
+    font-size: larger;
+}
+
+strong{
+    color: #65129D;
+}
+
 h2{
     text-align: center;
     color: #510a72;
     font-size: xx-large;
 }
 
-.produtos {
+#produtos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
  }
  
- .produtos img{
+#produtos img{
     width: 300px;
     margin: 20px;
     border-radius: 20px;
  }
  
- .produtos img:hover{
+#produtos img:hover{
     transform: scale(1.05);
  }
 
 fieldset{
     border: none;
     text-align: center;
+    font-size: large;
 }
 
 button{
     border: none ;
     background-color: #510a72;
     color: #f2f2f2;
-    padding: 2%;
+    padding: 6%;
     border-radius: 1cap;
+    width: 50%;
+    font-size: large;
 }
